@@ -16,9 +16,9 @@
     header .head #search{
         position: relative;
         left: 40px;
-        bottom: 8px;
+        bottom: 7px;
         color: whitesmoke;
-        font-size: 0.8rem;
+        font-size:0.7rem;
     }
     header .content #main_content table td{
         
