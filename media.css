@@ -1,0 +1,44 @@
+@media(min-width:400px) and (max-width:600px){
+    header .head input{
+        width: 35vw;
+        height: 3.5vh;
+    }
+    header .head input::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.5rem;
+    }
+    header .head .btn{
+        width: 28vw;
+        height: 3vh;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+    }
+    header .head #search{
+        position: relative;
+        left: 40px;
+        bottom: 8px;
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+    header .content #main_content table td{
+        
+        font-size: 1rem;
+    }
+    footer{
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}
+@media(min-width:600px){
+    header .content #main_content table td{
+        
+        font-size: 1.2rem;
+    }
+    header .head input::placeholder{
+        font-size: 0.7rem;
+    }
+    footer{
+        text-align: center;
+        font-size: 0.7rem;
+    }
+}

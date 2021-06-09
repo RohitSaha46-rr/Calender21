@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+    height: auto;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Mate SC', serif;
+}
+button{
+    width: 20vw;
+    height: 5vh;
+    background-color: white;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+    height: auto;
+
+}
+header{
+    width: 100vw;
+    height: auto;
+
+}
+header .head{
+    width: 100vw;
+    height: 20vh;
+    background-color: #084871;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header .head h1{
+    color: whitesmoke;
+    font-family: 'Mate SC', serif;
+}
+header .head input{
+    width: 20vw;
+    height: 4vh;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    border:3px solid #9c639c;
+    outline:none;
+}
+header .head input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+header .head .btn{
+    width: 10vw;
+    height: 4vh;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    outline:none;
+    position: relative;
+    top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    background-color: #9c639c;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+header .head #search{
+    position: relative;
+    left: 50px;
+    bottom: 11px;
+    color: whitesmoke;
+}
+header .content{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+header .content table tr th{
+    width: 30vw;
+    height: 5vh;
+    font-size: 1.3rem;
+    background-color: #9c639c;
+    font-family: 'Mate SC', serif;
+}
+header .content #main_content{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header .content #main_content table td{
+    width: 30vw;
+    height: 7vh;
+    text-align: center;
+    background-color: rgb(97 163 206);
+    transition: .3s;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 1.5rem;
+}
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+}
