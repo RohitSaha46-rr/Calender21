@@ -9,7 +9,7 @@
     }
     header .head .btn{
         width: 28vw;
-        height: 3vh;
+        height: 3.5vh;
         font-size: 0.7rem;
         letter-spacing: 1px;
     }
@@ -18,7 +18,7 @@
         left: 40px;
         bottom: 8px;
         color: whitesmoke;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     header .content #main_content table td{
         
