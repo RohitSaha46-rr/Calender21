@@ -1,6 +1,6 @@
 @media(min-width:300px) and (max-width:600px){
     header .head input{
-        width: 35vw;
+        width: 37.5vw;
         height: 3.5vh;
     }
     header .head input::placeholder{
@@ -9,16 +9,15 @@
     }
     header .head .btn{
         width: 28vw;
-        height: 3.5vh;
-        font-size: 0.7rem;
+        height: 3vh;
+        font-size: 0.6rem;
         letter-spacing: 1px;
     }
     header .head #search{
-        position: relative;
-        left: 40px;
-        bottom: 6px;
-        color: whitesmoke;
-        font-size:0.4rem;
+        font-size: 0.5rem;
+    }
+    header .content table tr th{
+        font-size: 1rem;
     }
     header .content #main_content table td{
         
