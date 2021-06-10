@@ -40,6 +40,7 @@ header .head input{
 header .head input::placeholder{
     font-family: 'Poppins', sans-serif;
 }
+
 header .head .btn{
     width: 10vw;
     height: 4vh;
@@ -58,12 +59,7 @@ header .head .btn{
     letter-spacing: 2px;
     cursor: pointer;
 }
-header .head #search{
-    position: relative;
-    left: 50px;
-    bottom: 11px;
-    color: whitesmoke;
-}
+
 header .content{
     width: 100vw;
     height: auto;
